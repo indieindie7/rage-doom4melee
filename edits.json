@@ -1,0 +1,247 @@
+{
+ "faction/settlers/resistance": {
+  "type": "faction",
+  "ops": [
+   {
+    "at": 13,
+    "old": [
+     "\t\t\t\t\tattitude = \"ATTITUDE_LIKE\";\n"
+    ],
+    "new": [
+     "\t\t\t\t\tattitude = \"ATTITUDE_LOVE\";\n"
+    ]
+   }
+  ]
+ },
+ "damage/melee/stun": {
+  "type": "damage",
+  "ops": [
+   {
+    "at": 2,
+    "old": [],
+    "new": [
+     "\t\tcausesDismemberment = true;\n",
+     "\t\tstuns = true;\n",
+     "\t\tknockBack = 600;\n",
+     "\t\tknockUp = 40;\n"
+    ]
+   },
+   {
+    "at": 3,
+    "old": [
+     "\t\tminDamage = 40;\n",
+     "\t\tmaxDamage = 40;\n"
+    ],
+    "new": [
+     "\t\tminDamage = 70;\n",
+     "\t\tmaxDamage = 70;\n"
+    ]
+   },
+   {
+    "at": 6,
+    "old": [
+     "\t\tragdollImpulseMag = 500;\n"
+    ],
+    "new": [
+     "\t\tragdollImpulseMag = 2000;\n"
+    ]
+   }
+  ]
+ },
+ "damage/pistol/melee": {
+  "type": "damage",
+  "ops": [
+   {
+    "at": 4,
+    "old": [
+     "\t\tminDamage = 25;\n",
+     "\t\tmaxDamage = 25;\n"
+    ],
+    "new": [
+     "\t\tminDamage = 70;\n",
+     "\t\tmaxDamage = 70;\n"
+    ]
+   }
+  ]
+ },
+ "damage/rifle/melee": {
+  "type": "damage",
+  "ops": [
+   {
+    "at": 4,
+    "old": [
+     "\t\tminDamage = 25;\n",
+     "\t\tmaxDamage = 25;\n"
+    ],
+    "new": [
+     "\t\tminDamage = 70;\n",
+     "\t\tmaxDamage = 70;\n"
+    ]
+   }
+  ]
+ },
+ "damage/settlermachinegun/melee": {
+  "type": "damage",
+  "ops": [
+   {
+    "at": 4,
+    "old": [
+     "\t\tminDamage = 25;\n",
+     "\t\tmaxDamage = 25;\n"
+    ],
+    "new": [
+     "\t\tminDamage = 70;\n",
+     "\t\tmaxDamage = 70;\n"
+    ]
+   }
+  ]
+ },
+ "damage/crossbow/melee": {
+  "type": "damage",
+  "ops": [
+   {
+    "at": 4,
+    "old": [
+     "\t\tminDamage = 25;\n",
+     "\t\tmaxDamage = 25;\n"
+    ],
+    "new": [
+     "\t\tminDamage = 70;\n",
+     "\t\tmaxDamage = 70;\n"
+    ]
+   }
+  ]
+ },
+ "weapon/regimeshotgun": {
+  "type": "weapon",
+  "ops": [
+   {
+    "at": 2,
+    "old": [
+     "\t\thandsModelMD6 = \"weapons/regimeshotgun.md6\";\n",
+     "\t\tthirdPersonMD6 = \"weapons/regimeshotgun_3rd_person.md6\";\n"
+    ],
+    "new": [
+     "\t\thandsModelMD6 = \"weapons/double_barrel_shotgun.md6\";\n",
+     "\t\tthirdPersonMD6 = \"weapons/double_barrel_shotgun.md6\";\n"
+    ]
+   },
+   {
+    "at": 25,
+    "old": [
+     "\t\t\t\tclipType = \"AMMOCLIP_SHOTGUN\";\n",
+     "\t\t\t\tclipSize = 8;\n"
+    ],
+    "new": [
+     "\t\t\t\tclipType = \"AMMOCLIP_DOUBLE\";\n",
+     "\t\t\t\tclipSize = 2;\n"
+    ]
+   },
+   {
+    "at": 28,
+    "old": [
+     "\t\t\t\tupgradedAmmoPerReload = 8;\n",
+     "\t\t\t\tautoReload = true;\n",
+     "\t\t\t\tupgradedAutoReload = true;\n"
+    ],
+    "new": [
+     "\t\t\t\tupgradedAmmoPerReload = 2;\n"
+    ]
+   },
+   {
+    "at": 34,
+    "old": [
+     "\t\t\t\tclipType = \"AMMOCLIP_SHOTGUN\";\n",
+     "\t\t\t\tclipSize = 8;\n"
+    ],
+    "new": [
+     "\t\t\t\tclipType = \"AMMOCLIP_DOUBLE\";\n",
+     "\t\t\t\tclipSize = 2;\n"
+    ]
+   },
+   {
+    "at": 37,
+    "old": [
+     "\t\t\t\tupgradedAmmoPerReload = 8;\n",
+     "\t\t\t\tautoReload = true;\n",
+     "\t\t\t\tupgradedAutoReload = true;\n"
+    ],
+    "new": [
+     "\t\t\t\tupgradedAmmoPerReload = 2;\n"
+    ]
+   },
+   {
+    "at": 43,
+    "old": [
+     "\t\t\t\tclipType = \"AMMOCLIP_SHOTGUN\";\n",
+     "\t\t\t\tclipSize = 8;\n"
+    ],
+    "new": [
+     "\t\t\t\tclipType = \"AMMOCLIP_DOUBLE\";\n",
+     "\t\t\t\tclipSize = 2;\n"
+    ]
+   },
+   {
+    "at": 46,
+    "old": [
+     "\t\t\t\tupgradedAmmoPerReload = 8;\n",
+     "\t\t\t\tautoReload = true;\n",
+     "\t\t\t\tupgradedAutoReload = true;\n"
+    ],
+    "new": [
+     "\t\t\t\tupgradedAmmoPerReload = 2;\n"
+    ]
+   },
+   {
+    "at": 55,
+    "old": [
+     "\t\tanimPrefix = \"rifle_\";\n"
+    ],
+    "new": [
+     "\t\tanimPrefix = \"pistol_\";\n"
+    ]
+   },
+   {
+    "at": 68,
+    "old": [
+     "\t\tweaponAnimSet = \"WEAPONANIM_RIFLE\";\n"
+    ],
+    "new": [
+     "\t\tweaponAnimSet = \"WEAPONANIM_PISTOL\";\n"
+    ]
+   }
+  ]
+ },
+ "damage/plasmarifle/melee": {
+  "type": "damage",
+  "ops": [
+   {
+    "at": 4,
+    "old": [
+     "\t\tminDamage = 50;\n",
+     "\t\tmaxDamage = 50;\n"
+    ],
+    "new": [
+     "\t\tminDamage = 70;\n",
+     "\t\tmaxDamage = 70;\n"
+    ]
+   }
+  ]
+ },
+ "damage/regimemachinegun/melee": {
+  "type": "damage",
+  "ops": [
+   {
+    "at": 4,
+    "old": [
+     "\t\tminDamage = 50;\n",
+     "\t\tmaxDamage = 50;\n"
+    ],
+    "new": [
+     "\t\tminDamage = 70;\n",
+     "\t\tmaxDamage = 70;\n"
+    ]
+   }
+  ]
+ }
+}
