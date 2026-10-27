@@ -135,6 +135,9 @@ def install(base, dlc3, edits):
     new = build(base, edits)  # also validates every edit before anything is written
     ensure_backup(base)
     ensure_backup(dlc3, keep_index=True)
+    if os.path.getsize(dlc3 + BK) <= 24:
+        die("dlc3 backup has no saved index, so old mod rows cannot be undone.\n"
+            "Verify RAGE in Steam, delete %s, then run install again." % (dlc3 + BK))
     for p in (base, dlc3):
         restore(p)
     # --- base: append blobs, rewrite index

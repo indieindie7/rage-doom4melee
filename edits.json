@@ -209,6 +209,41 @@
     "new": [
      "\t\tweaponAnimSet = \"WEAPONANIM_PISTOL\";\n"
     ]
+   },
+   {
+    "at": 79,
+    "old": [
+     "\t\t\tspreadReductionWithZoom = 0.8999999762;\n"
+    ],
+    "new": [
+     "\t\t\tspreadReductionWithZoom = 0.35;\n"
+    ]
+   },
+   {
+    "at": 84,
+    "old": [
+     "\t\tloopingReloadAnim = true;\n",
+     "\t\tmagazineUpgradeMD6Info = {\n",
+     "\t\t\tmeshesShownWithUpgrade = {\n",
+     "\t\t\t\tnum = 1;\n",
+     "\t\t\t\titem[0] = \"AmmoClip_GEO\";\n",
+     "\t\t\t}\n",
+     "\t\t}\n",
+     "\t\tshellEmitter = {\n",
+     "\t\t\tbreakableEmitter = \"breakable/shotgunshell\";\n",
+     "\t\t\tbaseSpeed = 3000;\n",
+     "\t\t\tdeltaSpeed = 500;\n",
+     "\t\t\tdeltaAngle = 20;\n",
+     "\t\t}\n",
+     "\t\tshellEjectLeftTagName = \"shelleject_left\";\n",
+     "\t\thideShellsOnZoom = false;\n",
+     "\t\tupgradeDeclList = {\n",
+     "\t\t\tnum = 1;\n",
+     "\t\t\titem[0] = \"weaponupgrades/regime_shotgun_magazine\";\n",
+     "\t\t}\n",
+     "\t\thasIntroAnimation = true;\n"
+    ],
+    "new": []
    }
   ]
  },
@@ -258,31 +293,6 @@
      "\t\tminDamage = 35;\n",
      "\t\tmaxDamage = 35;\n",
      "\t\tragdollImpulseMag = 2500;\n"
-    ]
-   }
-  ]
- },
- "projectile/shotgun/buckshot_standard": {
-  "type": "projectile",
-  "ops": [
-   {
-    "at": 14,
-    "old": [
-     "\t\tspread = 7;\n",
-     "\t\tspawnCount = 8;\n"
-    ],
-    "new": [
-     "\t\tspread = 8;\n",
-     "\t\tspawnCount = 8;\n"
-    ]
-   },
-   {
-    "at": 21,
-    "old": [
-     "\t\t\tpitchKickAmount = 8;\n"
-    ],
-    "new": [
-     "\t\t\tpitchKickAmount = 12;\n"
     ]
    }
   ]

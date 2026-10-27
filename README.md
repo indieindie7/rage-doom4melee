@@ -10,9 +10,10 @@ to your own retail files.
   knockback and a bigger ragdoll impulse. Fists hit for 70, shotgun smash for 90.
 - `faction/settlers/resistance`: one relationship tweak (LIKE -> LOVE).
 - Authority shotgun (`weapon/regimeshotgun`): double-barrel model, 2-shell clip,
-  no auto-reload, pistol animations.
-- Buckshot (`projectile/` + `damage/shotgun/buckshot_standard`): 8 pellets x 35
-  (retail 8 x 15), spread 8 (spawnCount 10 crashed the game), harder kick and ragdoll. Shared by all player buckshot shotguns.
+  no auto-reload or shell-by-shell reload, no magazine upgrade, pistol animations,
+  ADS spread x0.35 (retail 0.9).
+- Buckshot damage (`damage/shotgun/buckshot_standard`): 8 pellets x 35
+  (retail 8 x 15), bigger ragdoll. Shared by all player buckshot shotguns.
 
 ## Install (PowerShell 5.1, Python 3 required)
 ```powershell
