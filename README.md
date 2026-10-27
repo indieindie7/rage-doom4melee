@@ -7,10 +7,12 @@ to your own retail files.
 ## What it changes
 - Melee finishers: the `damage/*/melee` decls (pistol, rifle, crossbow, plasma rifle,
   both machine guns) hit for 70; `damage/melee/stun` gets dismemberment, stun,
-  knockback and a bigger ragdoll impulse.
+  knockback and a bigger ragdoll impulse. Fists hit for 70, shotgun smash for 90.
 - `faction/settlers/resistance`: one relationship tweak (LIKE -> LOVE).
 - Authority shotgun (`weapon/regimeshotgun`): double-barrel model, 2-shell clip,
   no auto-reload, pistol animations.
+- Buckshot (`projectile/` + `damage/shotgun/buckshot_standard`): 8 pellets x 35
+  (retail 8 x 15), spread 8 (spawnCount 10 crashed the game), harder kick and ragdoll. Shared by all player buckshot shotguns.
 
 ## Install (PowerShell 5.1, Python 3 required)
 ```powershell

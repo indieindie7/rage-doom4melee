@@ -243,5 +243,89 @@
     ]
    }
   ]
+ },
+ "damage/shotgun/buckshot_standard": {
+  "type": "damage",
+  "ops": [
+   {
+    "at": 3,
+    "old": [
+     "\t\tminDamage = 15;\n",
+     "\t\tmaxDamage = 15;\n",
+     "\t\tragdollImpulseMag = 1000;\n"
+    ],
+    "new": [
+     "\t\tminDamage = 35;\n",
+     "\t\tmaxDamage = 35;\n",
+     "\t\tragdollImpulseMag = 2500;\n"
+    ]
+   }
+  ]
+ },
+ "projectile/shotgun/buckshot_standard": {
+  "type": "projectile",
+  "ops": [
+   {
+    "at": 14,
+    "old": [
+     "\t\tspread = 7;\n",
+     "\t\tspawnCount = 8;\n"
+    ],
+    "new": [
+     "\t\tspread = 8;\n",
+     "\t\tspawnCount = 8;\n"
+    ]
+   },
+   {
+    "at": 21,
+    "old": [
+     "\t\t\tpitchKickAmount = 8;\n"
+    ],
+    "new": [
+     "\t\t\tpitchKickAmount = 12;\n"
+    ]
+   }
+  ]
+ },
+ "damage/fists/melee": {
+  "type": "damage",
+  "ops": [
+   {
+    "at": 3,
+    "old": [
+     "\t\tminDamage = 25;\n",
+     "\t\tmaxDamage = 25;\n"
+    ],
+    "new": [
+     "\t\tminDamage = 70;\n",
+     "\t\tmaxDamage = 70;\n"
+    ]
+   },
+   {
+    "at": 6,
+    "old": [
+     "\t\tragdollImpulseMag = 500;\n"
+    ],
+    "new": [
+     "\t\tragdollImpulseMag = 1500;\n"
+    ]
+   }
+  ]
+ },
+ "damage/shotgun/melee": {
+  "type": "damage",
+  "ops": [
+   {
+    "at": 4,
+    "old": [
+     "\t\tminDamage = 25;\n",
+     "\t\tmaxDamage = 25;\n"
+    ],
+    "new": [
+     "\t\tminDamage = 90;\n",
+     "\t\tmaxDamage = 90;\n"
+    ]
+   }
+  ]
  }
 }
